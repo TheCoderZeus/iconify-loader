@@ -302,4 +302,5 @@ Contributions, issues, and feature requests are welcome!
 
 If you found this project helpful, please give it a ⭐️!
 
-For support, email [your-email@example.com] or create an issue on GitHub.
+For support, email [livingprayer@gmail.com] or create an issue on GitHub.
+
