@@ -1,0 +1,60 @@
+{
+  "name": "@thecoderzeus/iconify-loader",
+  "version": "1.0.0",
+  "description": "A TypeScript library to load and convert SVG files into React components, optimized SVG strings, or JSON metadata",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "svg",
+    "react",
+    "typescript",
+    "icon",
+    "loader",
+    "svgo",
+    "component-generator"
+  ],
+  "author": "TheCoderZeus",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thecoderzeus/iconify-loader"
+  },
+  "bugs": {
+    "url": "https://github.com/thecoderzeus/iconify-loader/issues"
+  },
+  "homepage": "https://github.com/thecoderzeus/iconify-loader#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "typescript": ">=4.0.0"
+  },
+  "dependencies": {
+    "svgo": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
